@@ -6,7 +6,7 @@ pipeline {
     IMAGE_TAG      =  new Date().format('yyyyMMdd-HHmm')
     DOCKERHUB_CRED = 'dockerhub-creds'
 
-    EC2_HOST       = 'eec2-3-19-29-122.us-east-2.compute.amazonaws.com'
+    EC2_HOST       = 'ec2-3-19-29-122.us-east-2.compute.amazonaws.com'
     EC2_USER       = 'ubuntu'
     EC2_CREDS      = 'ec2-creds'                
     APP_PORT       = '8080'
